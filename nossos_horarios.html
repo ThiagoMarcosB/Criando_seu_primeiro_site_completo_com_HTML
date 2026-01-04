@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Horários</title>
+</head>
+<body>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+ <style>
+        h1{
+             text-align: center;
+         }
+         h2 {
+            text-align: center;
+         }
+         blockquote{
+             text-align: center;
+         }
+        
+        table {
+            box-shadow: 11px 15px 4px 0px rgba(0, 0, 0, 0.24);
+            -webkit-box-shadow: 11px 15px 4px 0px rgba(0, 0, 0, 0.24);
+            -moz-box-shadow: 11px 15px 4px 0px rgba(0,0,0,0.24); 
+            border: solid 1px grey
+        }
+    table thead th {
+        background-color: rgb(0, 0, 0);
+        color:white;
+    }
+    table tfoot td {
+        background-color: rgb(207, 207, 207);
+    } 
+    table tbody tr:nth-child(even) td {
+        background-color: rgba(0, 0, 0, 0.26) ;
+    }
+    table tr:hover td {
+        background-color: rgba(0, 0, 0, 0.26) ;
+    }
+
+</style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="#">Link</a></li>
+            </ul>
+            <ul>
+                <li><a href="inicial.html" target="_self">Página Inicial</a></li>
+                <li><a href="sobre_nos.html" target="_self">Sobre Nós</a></li>
+                <li><a href="contatos.html" target="_self">Contatos</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="header">
+               <img aling="center" src="Nossos-horários.jpg" height="" width="900">
+                <!-- Aqui vai o seu header -->
+        </div>
+    
+         <div class="content">
+            <table summary="Horários de atendimento" border="" cellpadding="4" cellspacing="0">
+                <caption>Tabela dos nossos horários.</caption>
+                <thead></thead>
+                <tr>
+                    <th colspan="5">Nossos Horários</th>
+                </tr>
+                <tr>
+                    <th>Serviços</th>
+                    <th>Segunda aSexta</th>
+                    <th>Sábados</th>
+                    <th>Domingos</th>
+                    <th>Feriadoas</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>Consulta Geral</td>
+                        <td>8:00 - 20:00</td>
+                        <td>8:00 - 16:00</td>
+                        <td>8:00 - 12:00</td>
+                        <td>8:00 - 12:00</td>
+                    </tr>
+                    <tr>
+                        <td>Cirurgias de Pequeno Porte</td>
+                        <td>8:00 - 20:00</td>
+                        <td>8:00 - 16:00</td>
+                        <td>8:00 - 12:00</td>
+                        <td>8:00 - 12:00</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Atendimento Emergêncial</td>
+                        <td>8:00 - 20:00</td>
+                        <td>8:00 - 16:00</td>
+                        <td>8:00 - 12:00</td>
+                        <td>8:00 - 12:00</td>
+                    </tr>
+                    <tr>
+                        <td>Exames Laboratoriais</td>
+                        <td>8:00 - 20:00</td>
+                        <td>8:00 - 16:00</td>
+                        <td>8:00 - 12:00</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Exames de Iamgem</td>
+                       <td>8:00 - 20:00</td>
+                        <td>8:00 - 16:00</td>
+                        <td>8:00 - 12:00</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Vacinação e Imunização</td>
+                        <td>8:00 - 20:00</td>
+                        <td>8:00 - 16:00</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Banho e Tosa</td>
+                        <td>8:00 - 20:00</td>
+                        <td>8:00 - 16:00</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+            <form onsubmit method="post">
+                <h2>Formulário de Atendimento</h2>
+                    <label>Porte do Pet:</label>
+                        <input type="radio" name="porte" value="Pequeno"><label>Pequeno</label>
+                        </label>
+                    
+                        <input type="radio" name="porte" value="Médio"><label>Médio</label>
+                    
+                        <input type="radio" name="porte" value="Grande"><label>Grande</label><br>
+
+                        <label>Nome do Pet:</label>
+                        <input type="text" name="name"><br>
+
+                        <select name="role" id="">
+                            <option value="">Escolha nossos serviços</option>
+                            <option value="Consulta Geral">Consulta Geral</option>
+                            <option value="Cirurgias de Pequeno Porte">CIrurgias de Pequeno Porte</option>
+                            <option value="Atendimento Emergêncial">Atendimento Emergêncial</option>
+                            <option value="Exames Laboratorias">Exames Laboratoriais</option>
+                            <option value="Exames de Imagem">Exames de Imagem</option>
+                            <option value="Vacinação e Imunização">Vacinação e Imunização</option>
+                            <option value="Banho e Tosa">Banho e Tosa</option>
+                         </select> <br>
+
+                         <label for="">Selecione a Data Desejada:</label>
+                         <input type="date" name="Data" id=""> <br>
+                        
+                         <label for="">Informe o Horário Desejado:</label>
+                         <input type="number8" title="Coloque aqui o horário desejado."> <br>
+
+
+
+                         <button type="reset">Resetar</button>
+                         <button type="submit">Enviar</button>
+
+                         <blockquote>Fique atento à nossa tabela para marcar seu horário!</blockquote>
+            </form>
+            </div>
+            
+                <!-- Aqui vai o seu conteúdo -->
+        </div>
+    
+            <div class="footer">
+                <h2>Contatos e Redes Sociais:</h2>
+                <form onsubmit method="">
+                    <input type="email" placeholder="Adicione seu E-mail!" title="Adicione o seu E-mail aqui!">
+                    <button type="submit">Enviar</button>
+                    </form>
+                    <small>
+                        <p><b>Whatsapp:</b> <u>(71) 9-99823325</u>
+                        <br>
+                        <b>Instagram:</b> <u>@ClinVet</u></p>
+                    </small>
+                
+
+                    
+                <!--Aqui vai o seu rodapé-->
+            </div>        
+</body>
+</html>
+</body>

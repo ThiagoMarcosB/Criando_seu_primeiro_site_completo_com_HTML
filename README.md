@@ -1,2 +1,0 @@
-# Criando_seu_primeiro_site_completo_com_HTML
-projeto_de_site_em_HTML
